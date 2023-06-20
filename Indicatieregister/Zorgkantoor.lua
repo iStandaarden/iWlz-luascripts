@@ -1,4 +1,4 @@
--- versie 20230426
+-- versie v1.0 - 20230426
 function handle(eventData)
     local jsonModelScratch = [[
       {
