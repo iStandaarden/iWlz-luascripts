@@ -1,4 +1,4 @@
--- versie 20230426
+-- versie 20230701
 function handle(eventData)
     local jsonModelScratch = [[
       {
@@ -9,7 +9,7 @@ function handle(eventData)
         },
         "W": {
           "m": { "grondslag": "#G", "geindiceerdZorgzwaartepakket": "#GZ", "beperking": "#B", "stoornis": "#S", "stoornisScore": "#SS", "wzd": "#WZD", "client": "#C" },
-          "f": ["wlzindicatieID", "bsn", "besluitnummer", "soortWlzindicatie", "afgiftedatum", "ingangsdatum", "einddatum", "meerzorg", "commentaar"],
+          "f": ["wlzindicatieID", "bsn", "besluitnummer", "soortWlzindicatie", "afgiftedatum", "ingangsdatum", "einddatum", "meerzorg", "commentaar", "vervaldatum"],
           "p": {
             "wlzindicatieID": "$$ReplaceWithRecordID$$"
           }
